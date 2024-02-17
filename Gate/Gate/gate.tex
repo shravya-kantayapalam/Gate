@@ -1,0 +1,98 @@
+% \iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}  
+\usepackage{tikz}
+\usepackage{circuitikz} 
+\usepackage{caption}
+
+\def\inputGnumericTable{}                                
+\usepackage[latin1]{inputenc}                 
+\usepackage{color}                            
+\usepackage{array}                            
+\usepackage{longtable}                        
+\usepackage{calc}                            
+\usepackage{multirow}                      
+\usepackage{hhline}                           
+\usepackage{ifthen}                          
+\usepackage{lscape}
+\usepackage{amsmath}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+\title{Gate Assignment CH 31}
+\author{Shravya Kantayapalam\\ EE23BTECH11030}
+\maketitle
+
+\begin{enumerate}
+    \item \textbf{Question }:
+The position \( x(t) \) of a particle, at constant \( \omega \), is described by the equation
+\[
+\frac{{d^2x}}{{dt^2}} = -\omega^2 x.
+\]
+The initial conditions are \( x(t=0) = 1 \) and \( \frac{{dx}}{{dt}}\bigg|_{t=0} = 0 \). 
+
+The position of the particle at \( t = \frac{{3\pi}}{{\omega}} \) is \underline{\hspace{2cm}} (in integer).
+\hfill{(GATE CH 2023)}
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+\solution
+Given:
+\[ X(s) = \frac{s}{s^2 + \omega^2} = \frac{A}{s} + \frac{Bs + C}{s^2 + \omega^2} \]
+
+Multiplying both sides by \( s^2 + \omega^2 \) yields:
+\[ s = A(s^2 + \omega^2) + (Bs + C) \cdot s \]
+
+\[ s = As^2 + A\omega^2 + Bs^2 + Cs \]
+
+\[ (A + B)s^2 + Cs + A\omega^2 = s \]
+
+This equation must hold for all values of \( s \). Therefore, the coefficients must match term by term.
+
+\[ A\omega^2 = 0 \implies A = 0 \]
+
+For the \( s \) terms:
+\[ C = 1 \]
+
+For the \( s^2 \) terms:
+\[ A + B = 0 \implies B = -A = 0 \]
+
+Thus, \( A = 0 \), \( B = 0 \), and \( C = 1 \).
+
+Therefore:
+\[ X(s) = \frac{s}{s^2 + \omega^2} = \frac{1}{s^2 + \omega^2} \]
+
+The inverse Laplace transform of \( X(s) \) is:
+\[ x(t) = \mathcal{L}^{-1} \left\{ \frac{1}{s^2 + \omega^2} \right\} = \sin(\omega t) \]
+
+\end{document}
+
