@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.2)  1 MAR 2024 10:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.2)  1 MAR 2024 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1028,7 +1028,8 @@ For immediate help type H <return>.
                                                   
 l.106 }
        
-? 
+? r
+OK, entering \nonstopmode...
 ) (/usr/share/texlive/texmf-dist/tex/latex/circuitikz/circuitikz.sty
 Package: circuitikz 2021/12/06{} The CircuiTikz circuit drawing package version
  1.4.5
@@ -1363,10 +1364,16 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+)
+<gate.png, id=7, 578.16pt x 433.62pt>
+File: gate.png Graphic file (type png)
+<use gate.png>
+Package pdftex.def Info: gate.png  used on input line 126.
+(pdftex.def)             Requested size: 252.0pt x 189.00032pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
+ <./gate.png>]
 
 ! LaTeX Error: \begin{enumerate} on input line 54 ended by \end{document}.
 
@@ -1374,9 +1381,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \end{document}
+l.129 \end{document}
                     
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 (./gate.aux)
 Package rerunfilecheck Info: File `gate.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1386,10 +1396,10 @@ Package rerunfilecheck Info: File `gate.out' has not changed.
 ### semi simple group (level 1) entered at line 54 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 44294 strings out of 478287
- 1022862 string characters out of 5849290
- 1515303 words of memory out of 5000000
- 61786 multiletter control sequences out of 15000+600000
+ 44304 strings out of 478287
+ 1023002 string characters out of 5849290
+ 1516456 words of memory out of 5000000
+ 61794 multiletter control sequences out of 15000+600000
  536654 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,9n,96p,408b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1400,10 +1410,10 @@ ist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gate.pdf (1 page, 46670 bytes).
+Output written on gate.pdf (1 page, 78050 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
